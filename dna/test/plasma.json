@@ -1,0 +1,7 @@
+{
+  "ExpressHttpActions": {
+    "mongo": {
+      "dbname": "app-test"
+    }
+  }
+}
