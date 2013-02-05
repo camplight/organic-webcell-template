@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "organic": "0.0.8",
-    "organic-webcell": "0.1.6",
-    "organic-cells": "0.0.7",
+    "organic": "0.0.9",
+    "organic-webcell": "0.1.7",
+    "organic-cells": "0.0.9",
     
     "mongoose": "3.5.2",
     "mongoose-createdmodified": "0.0.2",
