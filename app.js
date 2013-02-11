@@ -21,9 +21,10 @@ module.exports = function(callback) {
     var db = mongoose.createConnection('localhost', dna.plasma.ExpressHttpActions.mongo.dbname);
     db.once("open", function(){
       modelBase.db = db;
-      Cell.call(self, dna, callback);
-      self.plasma.on("WebSocketServer", function(c){
-        modelBase.io = c.data.server;
+      Cell.call(self, dna, function(){
+        self.plasma.on("HttpServerPages", function(c){
+          if(callback) callback();
+        });
       });
     });
   }

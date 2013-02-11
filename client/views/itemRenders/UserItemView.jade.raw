@@ -1,0 +1,2 @@
+.span11=model.get("username")
+a.btn.span1(data-id= model.id).itemName="-"

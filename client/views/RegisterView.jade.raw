@@ -1,0 +1,13 @@
+.span12
+  .row-fluid
+    .span4.offset4 Register form
+  .row-fluid
+    form.registerForm.span12
+      .row-fluid 
+        .span4.offset4 Register with username/password 
+      .row-fluid
+        input.span4.offset4.username(type="text", name="username", placeholder="username")
+      .row-fluid
+        input.span4.offset4.password(type="password", name="password", placeholder="password")
+      .row-fluid
+        input.span2.offset4.btn(type="submit", value="register")

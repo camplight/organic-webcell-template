@@ -1,0 +1,11 @@
+.navbar-inner
+  a.brand Some title
+  ul.nav
+    li.li1.active
+      a.menuItem1 Index
+    li.li2
+      a.menuItem2(href="#") Landing
+    li.li3
+      a.menuItem3(href="#") Login
+    li.li4
+      a.menuItem4(href="#") Register
